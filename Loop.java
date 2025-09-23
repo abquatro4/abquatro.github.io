@@ -6,10 +6,10 @@ public class Loop {
         //intial number at which the sum starts
         int sum = 0;
         //While it equals less than one hundred the code will keep running until it equals one hundred.
-        while (i < 100) {
+        while (i++ < 100) {
             
             //This is what adds one each time the loop runs.
-            i++;
+            //i//++;
             int inputnumber = i;
             if(inputnumber%2 == 0){
             System.out.println(i + " is an even number");

@@ -1,6 +1,5 @@
 // Code creator: Albert.
 // Code use: Gives the answer to whether number is odd or even up to 100.
-
 public class array {
 
     public static void main(String[] args) {
@@ -13,6 +12,7 @@ public class array {
         for (int x = 0; x < arr.length; x++) {
             arr[x] = x + 1;
         }
+
         //While x is less than the array length it runs the loop.
         for (int x = 0; x < arr.length; x++) {
             //This is what tells the code that inputnumber is the array.
