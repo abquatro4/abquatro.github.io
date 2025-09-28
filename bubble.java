@@ -40,6 +40,8 @@ int[] arrayToSort={1,3,4,5,1,23,57,126,4,543,345,23,12,45,67,97};// this creates
             if (arrayToSort[x] < arrayToSort[x + 1]) { //If the number is smaller than the next it preforms the swap
                 arrayToSort=swapTwoArrayElements(arrayToSort, x); //Swaps the two numbers.
                 isSorted = false;
+                //test
+
             }
         }
     }
