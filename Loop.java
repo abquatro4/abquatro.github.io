@@ -19,7 +19,7 @@ public class Loop {
           }
         //Adds i to the sum each time the loop runs
         sum = sum + i;
-        
+        //test2
         }
         //Prints the final sum of all loop iterations.
         System.out.println("Sum is " + sum);
