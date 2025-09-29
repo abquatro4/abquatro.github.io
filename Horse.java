@@ -1,4 +1,3 @@
-
 //Simple horse class created by Kim Gross
 //for CTE Software Development class 2022
 
@@ -24,6 +23,3 @@ public class Horse {
         return name;
     };    
 }
-Horse.java
-External
-Displaying Horse.java.
