@@ -11,7 +11,7 @@ public class poolData {
         currentColor=poolColor; //what poolcolor is in the constructor
     };
     
-    public poolData() {
+    public void tempInCelsius() {
         int tempCelsius=temp-32*5/9; //Formula to convert the pool's fahrenheit temp to celsius.
         
         System.out.println("pool temp in Celsius"+tempCelsius);
