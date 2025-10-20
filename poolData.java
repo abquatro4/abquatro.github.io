@@ -19,4 +19,8 @@ public class poolData {
      public String toString (){
         return poolColor;
     };    
+    public int toInt (){
+        return LeafAmount;
+        
+    }
 }
