@@ -1,3 +1,4 @@
+package PoolData;
 //Creator Albert, stores data for a swimming pool.
 //Class: Software Devolpment 2025
 public class poolData {
@@ -6,9 +7,9 @@ public class poolData {
     String poolColor; //What color the pool is.
     int tempCelsius; //Pool temp in Celsius.
     public poolData(int currentTempFahrenheit, int LeafAmountNow, String currentColor) {
-        currentTempFahrenheit=temp; //What temp is in the constructor
-        LeafAmountNow=LeafAmount; //What leafAmount is in the constructor
-        currentColor=poolColor; //what poolcolor is in the constructor
+        temp=currentTempFahrenheit; //What temp is in the constructor
+        LeafAmount=LeafAmountNow; //What leafAmount is in the constructor
+        poolColor=currentColor; //what poolcolor is in the constructor
     };
     
     public void tempInCelsius() {
