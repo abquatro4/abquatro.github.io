@@ -23,4 +23,3 @@ public class CommunityPool extends poolData{ //Extends the poolData Class and ad
     };
     
 }
-
