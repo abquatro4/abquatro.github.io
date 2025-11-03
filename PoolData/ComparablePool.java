@@ -38,7 +38,7 @@ public class ComparablePool implements Comparable<ComparablePool> {//Implements 
 
               Collections.sort(list, Comparator.naturalOrder());
 
-              for (ComparablePool a : list)
+              for (ComparablePool a : list) //Sorts the pools by natural order smallest to largest in this case.
                 System.out.println(a.PoolName+ " "+ a.MonthlyVistors);
         }
     }
