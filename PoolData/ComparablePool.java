@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ComparablePool implements Comparable<ComparablePool> {//Implements comparable interface.
-    int MonthlyVistors;
+    public int MonthlyVistors;
     String PoolName;
     int DaysOpen;
     ComparablePool(String PoolName, int MonthlyVistors) {
