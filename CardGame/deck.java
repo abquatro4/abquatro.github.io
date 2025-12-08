@@ -16,6 +16,7 @@ static final List<String> SUITS = List.of("Spades", "Hearts", "Diamonds", "Clubs
             }
            
         }
+        System.err.println("All cards");
         for (Card card: cards) {
             System.out.println(card);
         }
