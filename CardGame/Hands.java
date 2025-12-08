@@ -1,5 +1,5 @@
 package CardGame;
 
-public class hand {
+public class Hands {
     
 }
